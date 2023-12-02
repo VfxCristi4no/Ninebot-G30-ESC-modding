@@ -128,7 +128,7 @@ The **conductor tracks** are responsible for **transmitting** the **current** in
   *Credits: <a href="https://joeybabcock.me/">Joey Babcock</a>*
 
 <details>
-<img src="pictures/Picture-soon.jpg"
+<img src="pictures/PICTURE-SOON.jpg"
   width="190">
 </details>
 
