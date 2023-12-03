@@ -25,12 +25,12 @@
   - [ADC Resistor](#adc-resistor-1)
   - [Mosfets](#mosfets-2)
   - [Capacitors](#capacitors-2)
-- [Reinforce Tracks](#reinforce-tracks)
+- [Reinforcing Tracks](#reinforcing-tracks)
   - [Generation 1 Tracks](#generation-1-tracks)
   - [Generation 2 Tracks](#generation-2-tracks)
   - [Copper Wire](#copper-wire)
 - [Resistor Cable](#resistor-cable)
-- [Example of modded ESCs](#example-of-modded-escs)
+- [Examples of modded ESCs](#examples-of-modded-escs)
   - [Generation 1 Example](#generation-1-example)
   - [Generation 2 Example](#generation-2-example)
 - [Thank You!](#thank-you)
@@ -205,10 +205,10 @@ All pictures are only examples, none of those are actually ESCs.
 #### Capacitors
 
 **(1 Capacitor)**: <br>
- Next we start by unsoldering the capacitor. This can sometimes be difficult as both poles need to be heated, a suggestion would be to snap off the cap and unsolder the poles individually. Use tweezers to apply pressure to the pole while heating the pad on the back of the ESC.
+ Next we start by desoldering the capacitor. This can sometimes be difficult as both poles need to be heated, a suggestion would be to snap off the cap and desolder the poles individually. Use tweezers to apply pressure to the pole while heating the pad on the back of the ESC.
 
 **(3 Capacitor)**: <br>
- Start by desoldering all three capacitor, none of them can be left as they are very low voltage. It doesn't matter which of the three fields you solder new caps to, it won't make a difference. However, there is a problem here. Because the caps are soldered upways onto the PCB, there is no way to make the desoldering process easier by snapping off the poles. You now have to desolder the capacitors from below the PCB. Your only option will be to apply flux to both fields, thereby creating a heat distribution on both fields. While doing this, you will need a pressure from the other side, that pulls the capacitor away from the PCB.
+ Start by desoldering all three capacitors, none of them can be left in if they too few maximum voltage for your planned volts. It doesn't matter which of the three fields you solder new caps to, it won't make a difference. However, there is a problem here, because the caps are soldered upways/standing onto the PCB, there is no way to make the desoldering process easier by snapping the poles off. You now have to desolder the capacitors from below the PCB. Your only option is to apply flux to both fields, thereby creating a heat distribution on both fields. While doing this, you will need to pull the capacitor away from the PCB.
 
 <a href="https://youtu.be/BFDwsdEGsDE?si=k15nF6Udf_BwlFlO"><img src="pictures/How-to-desolder-capacitors.png"
   width="200"><br>
@@ -216,7 +216,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 #### Mosfets
 
- It would be best to unclip the mosfets as well, as it might be difficult to heat all three points at the same time. Here too, it is recommended to use tweezers to apply pressure to the individual legs while heating the soldering point from the back.
+ It would be best to unclip the mosfets as well, as it might be difficult to heat all three points at the same time. It is also recommended here to use tweezers to apply pressure to the individual legs while heating the soldering point from the back.
 
 <a href="https://youtu.be/9jpotpIO1-U?si=dXXGFkvyaFS_qdzo"><img src="pictures/How-to-desolder-mosfets.png"
   width="200"><br>
@@ -225,7 +225,7 @@ All pictures are only examples, none of those are actually ESCs.
 #### ADC Resistor
 
  This step will only be necessary if you plan to connect more than 11s (46.2V) to your ESC!<br>
- Start by adding solder to both poles of the resistor. This ensures that your solder stays melted longer. In this time you need to work fast, heat the other pole of the resitsor, in order to finally remove the resistor from the PCB. Tweezers are once again ideal for this process.
+ Start by adding solder to both poles of the resistor. This ensures that your solder stays melted longer. In this time you need to work fast, heat the other pole of the resistor, in order to finally remove the it from the PCB. Tweezers are once again ideal for this process.
 
 <a href="https://youtube.com/shorts/nBeeM2gHQjI?si=4MIDuVpBg0SieDyq"><img src="pictures/How-to-desolder-ADC-resistor.png"
   width="200"><br>
@@ -237,8 +237,8 @@ All pictures are only examples, none of those are actually ESCs.
 
 #### ADC Resistor
 
- First things first, we start by cleaning the solder pads. Use desoldering wick and flux to remove as much solder as possible.
- You should then clean the area, using high-percentage alcohol and a cotton swab to wipe away the remaining flux. Now we come to the soldering part. We want to carry out the process quickly and cleanly. Apply a bit of solder to one of the pads, let this solder heat up and carefully position one side of the resistor into the soldering point using tweezers, surely stop to heat the solder after positioning the resistor. This will help prevent the resistor from slipping during soldering the other pole. Now you can easily apply solder to the other side, and wuolah, your resistor is successfully soldered onto your PCB.
+ First things first, we start by cleaning the solder pads. Use a desoldering wick and flux to remove as much solder as possible.
+ You should then clean the area, using high-percentage alcohol and a cotton swab to wipe away the remaining flux. Now we come to the soldering part. We want to carry out the process quickly and cleanly. Apply a bit of solder to one of the pads, let it heat up and carefully position one side of the resistor into the soldering point using tweezers, then cut off the heat to the solder after positioning the resistor. This will help prevent the resistor from slipping during soldering the other pole. Now you can easily apply solder to the other side, and voila, your resistor is successfully soldered onto your PCB.
 
 <a href="https://youtube.com/shorts/rXJ9ICXt3zM?si=aBIKT8NGJLts9prp"><img src="pictures/How-to-solder-ADC-resistor.png"
   width="200"><br>
@@ -254,7 +254,7 @@ For through-hole components we need clean solder holes so that we can plug the c
 
 #### Capacitors
 
-We can differentiate between two types: upways and sideways.
+We can differentiate between two types: upway facing and sideways.
 Depending on how big your caps are and which ESC generation you have, you have to decide how to solder the caps. However, if you solder sideways, you have to calculate how exactly you have to bend the poles before soldering them.
 
 <a href="https://youtu.be/Y7v0167aYW4?si=0G6yncKXaa-pSXLS"><img src="pictures/How-to-solder-capacitors.png"
@@ -263,7 +263,7 @@ Depending on how big your caps are and which ESC generation you have, you have t
 
 ---
 
-### Reinforce Tracks
+### Reinforcing Tracks
 
 In this part we will focus on the conductor tracks. Each ESC looks different from the backside. To create a higher heat limit, we will solder copper wire onto the conductor tracks, this will then be covered with solder to increase heat distribution. I have traced the copper wires in each picture, showing how they need to be soldered.
 
@@ -298,7 +298,7 @@ Do not forget to put a shrink tubing over your structure, we don't want to shock
 </details>
 
 ---
-### Example of modded ESCs
+### Examples of modded ESCs
 
 #### Generation 1 Example
 
@@ -316,13 +316,11 @@ Do not forget to put a shrink tubing over your structure, we don't want to shock
 
 ### Thank you!
 
-If you've readen this far, then you should now know how to mod your ESC. I would like to thank all the people who helped me write this guide and who diligently sent me pictures. A special thanks to:<br>
+If you've read this far, then you should now know how to mod your ESC. I would like to thank all the people who helped me write this guide and who diligently sent me pictures. A special thanks to:<br>
 <br>
 <a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>, for his great photos!<br>
 <a href="https://discordapp.com/users/180730711026827267">Lekrsu</a>, for his help with GitHub!<br>
 <a href="https://discordapp.com/users/341421282946187274">Joey Babcock</a>, for the permission to use his pictures!<br>
 <a href="https://discordapp.com/users/841686587463958579">Neon</a>, for detailed informations about the ESCs!
 
-This guide was written from **(03/11/2023)** to **(03/12/2023)**, and took a lot of effort. If you appreciate my work, I would be very happy about a <a href="https://www.paypal.com/donate/?hosted_button_id=JXSMGF7S8TG3Y">donation</a>.
-
-
+This guide was written from **(03/11/2023)** to **(03/12/2023)**, and took a lot of effort. If you appreciate my work, a <a href="https://www.paypal.com/donate/?hosted_button_id=JXSMGF7S8TG3Y">donation</a> would be greatly appreciated.
