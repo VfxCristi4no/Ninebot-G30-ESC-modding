@@ -15,7 +15,7 @@
 - [Modding](#modding)
   - [Generation 1 (1 Capacitor)](#generation-1-1-capacitor)
   - [Generation 1 (3 Capacitor)](#generation-1-3-capacitor)
-  - [Generation 2 Modding](#generation-2-modding)
+  - [Generation 2](#generation-2)
 - [Disassembling](#disassembling)
   - [Silicon](#silicon)
   - [Capacitors](#capacitors-1)
@@ -51,7 +51,7 @@ Make sure to always drain your capacitors when working with your ESC. You want t
 
 ---
 
-### ESC Generations
+#### ESC Generations
 
 
 When it comes to the G30 ESCs, we differentiate between 3 different circuit boards, each of which is intended for different models.
@@ -121,7 +121,7 @@ The conductor tracks are responsible for transmitting the current in the PCB to 
 ---
 ### Modding
 
-### Generation 1 (1 Capacitor)
+#### Generation 1 (1 Capacitor)
 
 <img src="pictures/NinebotMaxGen1ESC.1Cap-explained.jpg"
   width="590"><br>
@@ -153,7 +153,7 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
 
 </details>
 
-#### Generation 2 Modding
+#### Generation 2
 
 <img src="pictures/NinebotMaxGen2ESC-explained.jpg"
   width="590"><br>
