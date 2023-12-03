@@ -78,7 +78,7 @@ The first generation ESC is based on a STM32 chip and connects to the motor via 
   <br>
 *Credits: <a href="https://joeybabcock.me/">Joey Babcock</a> &<a href="https://discordapp.com/users/1030601422900834345"> Stoindl</a>*
 
-The second generation is based on the AT32 chip and connects to the motor via screwable connectors. This model was invented by the new G30 models in early 2022. The ESC is protected by a black plastic shell and therefore does not contain any silicone for water protection. In addition, the mosfets are held by a clamp, which presses the mosfets onto the housing with tension to generate heat dissipation.
+The second generation is based on the AT32 chip and connects to the motor via screwable connectors. This model was invented by the new G30 models in early 2022. The ESC is protected by a black plastic shell and therefore does not contain any silicone for water protection. In addition, the mosfets are held by a clamp, which presses the mosfets onto the housing with tension to ensure heat dissipation.
 
 ---
 
@@ -97,7 +97,7 @@ The second generation is based on the AT32 chip and connects to the motor via sc
 #### Capacitors
 
 A capacitor is a passive electrical component with the ability to statically store electrical charge and the associated energy in an electric field in a direct current circuit. For our ESC, we have large current surges, positive or negative, we need the caps to smooth out the voltage, aswell as for our e-brake. Every capacitor has a specific voltage limit, if this limit gets exceeded, it will cause the capacitor to explode.
-We measure the capacitance in the unit Farad (μF), it depends on the design, dielectric and therefore the technology used. No matter how much brake-amper you will set in the end, all capacitors in total should have a capacitance of 2000uF to be on the safe-side.
+We measure the capacitance in the unit Micro-Farad (μF), it depends on the design, dielectric and therefore the technology used. No matter how much brake-amper you will set in the end, all capacitors in total should have a capacitance of 2000uF to be on the safe-side.
 
  <img src="pictures/Capacitors.png"
   width="140"><br>
