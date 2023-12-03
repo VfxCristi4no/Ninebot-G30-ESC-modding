@@ -56,7 +56,7 @@ Make sure to always drain your capacitors when working with your ESC. You want t
 
 When it comes to the G30 ESCs, we differentiate between 3 different circuit boards, each of which is intended for different models.
 
-### Generation 1 Overview
+#### Generation 1 Overview
 
 <img src="pictures/NinebotMaxGen1ESC.1Cap.jpg"
   width="305">
