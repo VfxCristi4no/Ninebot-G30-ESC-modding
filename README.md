@@ -5,34 +5,35 @@
 - [Preface](#preface)
 - [Warning](#warning)
 - [ESC Generations](#esc-generations)
-  - [Generation 1](#generation-1)
-  - [Generation 2](#generation-2)
+  - [Generation 1 Overview](#generation-1-overview)
+  - [Generation 2 Overview](#generation-2-overview)
 - [What are we going to mod?](#what-are-we-going-to-mod)
   - [Resistors](#resistors)
   - [Capacitors](#capacitors)
   - [Mosfets](#mosfets)
   - [Conductor Tracks](#conductor-tracks)
 - [Modding](#modding)
-  - [Generation 1 (1 Capacitor)](#generation-1-1-capacitor-explained)
-  - [Generation 1 (3 Capacitor)](#generation-1-3-capacitor-explained)
-  - [Generation 2](#generation-2-explained)
-- [Dissasembling](#desoldering)
-  - [Silicon](#remove-silicon)
-  - [Capacitors](#desolder-capacitors)
-  - [Mosfets](desolder-mosfets)
-  - [ADC resistor](desolder-adc-resistor)
+  - [Generation 1 (1 Capacitor)](#generation-1-1-capacitor)
+  - [Generation 1 (3 Capacitor)](#generation-1-3-capacitor)
+  - [Generation 2 Modding](#generation-2-modding)
+- [Disassembling](#disassembling)
+  - [Silicon](#silicon)
+  - [Capacitors](#capacitors-1)
+  - [Mosfets](#mosfets-1)
+  - [ADC Resistor](#adc-resistor)
 - [Soldering](#soldering)
-  - [ADC resistor](#solder-adc-resistor)
-  - [Mosfets](#solder-mosfets)
-  - [Capacitors](#solder-capacitors)
-- [Conductor Tracks](#conductor-tracks)
-  - [Generation 1](#generation-1-conductor-tracks)
-  - [Generation 2](#generation-2-conductor-tracks)
-  - [Copper-wire](#copper-wire)
+  - [ADC Resistor](#adc-resistor-1)
+  - [Mosfets](#mosfets-2)
+  - [Capacitors](#capacitors-2)
+- [Reinforce Tracks](#reinforce-tracks)
+  - [Generation 1 Tracks](#generation-1-tracks)
+  - [Generation 2 Tracks](#generation-2-tracks)
+  - [Copper Wire](#copper-wire)
 - [Resistor Cable](#resistor-cable)
 - [Example of modded ESCs](#example-of-modded-escs)
-  - [Generation 1](#generation-1-example)
-  - [Generation 2](#generation-2-example)
+  - [Generation 1 Example](#generation-1-example)
+  - [Generation 2 Example](#generation-2-example)
+- [Thank You!](#thank-you)
 
 ---
 
@@ -55,7 +56,7 @@ Make sure to always drain your capacitors when working with your ESC. You want t
 
 When it comes to the G30 ESCs, we differentiate between 3 different circuit boards, each of which is intended for different models.
 
-- #### [Generation 1](#generation-1)
+### Generation 1 Overview
 
 <img src="pictures/NinebotMaxGen1ESC.1Cap.jpg"
   width="305">
@@ -67,7 +68,7 @@ When it comes to the G30 ESCs, we differentiate between 3 different circuit boar
 
 The first generation ESC is based on a STM32 chip and connects to the motor via bullet connectors. Those models were invented by the end of 2019, with the release of the G30. We differientate between the 1 capacitor and the 3 capacitor version. Both ESCs are cast with a type of “silicone” to prevent incoming water damaging the board. The 3-capacitor-version can also be found in other models, but is most likely used for the German series of the G30D.
 
-- #### [Generation 2](#generation-2)
+#### Generation 2 Overview
 
 <img src="pictures/NinebotMaxGen2ESC.jpg"
   width="305">
@@ -83,7 +84,7 @@ The second generation is based on the AT32 chip and connects to the motor via sc
 
 ### What are we going to mod?
 
-### [Resistors](#resistors) 
+#### Resistors
 
  Depending on the voltage you want to apply to your ESC, you will need a specific resistor. If a resistor has a high electrical resistance, the current strength in a circuit is severely limited and only a small current flows. If a resistor has a low resistance value, a high current can flow. So how do we actually know what resistance we need for our voltage? For this case, Lekrsu has created a great <a href="https://lekrsu.github.io/shfw-walkthrough/calculator/">calculator</a> to calculate how much **Radc (Ohms)** your resistor needs to resist the voltage going through the ESC. Regarding on which value you enter, you will get the maximal voltage the resistor can resist. **For example**: 36V batteries have a maximal voltage of 42V, in this case you would need 130K Ohm.
 
@@ -93,7 +94,7 @@ The second generation is based on the AT32 chip and connects to the motor via sc
   <img src="pictures/SMD_RESISTOR_1206.png"
   width="70"><br>
 
- ### [Capacitors](#capacitors)
+#### Capacitors
 
 A capacitor is a passive electrical component with the ability to statically store electrical charge and the associated energy in an electric field in a direct current circuit. For our ESC, we have large current surges, positive or negative, we need the caps to smooth out the voltage, aswell as for our e-brake. Every capacitor has a specific voltage limit, if this limit gets exceeded, it will cause the capacitor to explode.
 We measure the capacitance in the unit Farad (μF), it depends on the design, dielectric and therefore the technology used. No matter how much brake-amper you will set in the end, all capacitors in total should have a capacitance of 2000uF to be on the safe-side.
@@ -101,14 +102,14 @@ We measure the capacitance in the unit Farad (μF), it depends on the design, di
  <img src="pictures/Capacitors.png"
   width="140"><br>
 
-### [Mosfets](#mosfets)
+#### Mosfets
 
 A mosfet is a type of semiconductor transistor commonly used in electronics and digital circuits. For the ESC, the mosfets are used to transmitt the heat to the case and for controlling the motor. Mosfets have a certain voltage limit, if this is exceeded it can destroy the mosfet. Depending on how many volts you want to connect, you need mosfets to have a slightly higher volt limit, aswell as a slightly higher amper limit, than your planning to set.
 
  <img src="pictures/Mosfet.png"
   width="90"><br>
 
-### [Conductor tracks](#conductor-tracks)
+#### Conductor Tracks
 
 The conductor tracks are responsible for transmitting the current in the PCB to the motor Due to high amp settings this can often generate a lot of heat. In this case, copper is our best friend. Due to its high degree of melting, we don't have to worry about the conductor tracks melting or bursting. We simply solder a thick copper wire to the contacts shown and cover this with solder.
 
@@ -120,7 +121,7 @@ The conductor tracks are responsible for transmitting the current in the PCB to 
 ---
 ### Modding
 
-- #### [Generation 1 (1 Capacitor)](#generation-1-1-capacitor-explained)
+### Generation 1 (1 Capacitor)
 
 <img src="pictures/NinebotMaxGen1ESC.1Cap-explained.jpg"
   width="590"><br>
@@ -131,7 +132,7 @@ The conductor tracks are responsible for transmitting the current in the PCB to 
   width="190">
 </details>
 
-- #### [Generation 1 (3 Capacitor)](#generation-1-3-capacitor-explained)
+#### Generation 1 (3 Capacitor)
 
 <img src="pictures/NinebotMaxGen1ESC.3Cap-explained.jpg"
   width="590"><br>
@@ -152,7 +153,7 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
 
 </details>
 
-- #### [Generation 2](#generation-2-explained)
+#### Generation 2 Modding
 
 <img src="pictures/NinebotMaxGen2ESC-explained.jpg"
   width="590"><br>
@@ -183,7 +184,8 @@ This is the mosfet clamp of the Gen2 ESC. The only way to get this clamp off is 
 
 ---
 
-### Dissasembling
+### Disassembling
+
 <details>
 
 Please make sure you have a little isopropernol (high proof alcohol) and a little flux, this will make the heat distribution easier. Note, that each of my paragraphs with blue color contains a tutorial that can be accessed when clicked on. Get yourself a clean work surface, you want to get your work done cleanly.<br>
@@ -192,7 +194,7 @@ All pictures are only examples, none of those are actually ESCs.
 </details>
 
 
-[<h3><a href="https://youtu.be/APBmFtRgpnI?si=u-y074FctDd8AGvc">1. Remove silicon</a></h3>](#remove-silicon)
+#### Silicon
 
  We start by scraping the silicone off the pads we want to solder to, use a needle or fork for this process, being careful not to damage the PCB.
 
@@ -200,7 +202,7 @@ All pictures are only examples, none of those are actually ESCs.
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@fellercolin">Fellercolin</a>*
 
-[<h3><a href="https://youtu.be/BFDwsdEGsDE?si=k15nF6Udf_BwlFlO">2. Desolder capacitors</a></h3>](#desolder-capacitors)
+#### Capacitors
 
 **(1 Capacitor)**: <br>
  Next we start by unsoldering the capacitor. This can sometimes be difficult as both poles need to be heated, a suggestion would be to snap off the cap and unsolder the poles individually. Use tweezers to apply pressure to the pole while heating the pad on the back of the ESC.
@@ -212,7 +214,7 @@ All pictures are only examples, none of those are actually ESCs.
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@The231447LucidDevTeam">The231447LucidDevTeam</a>*
 
-[<h3><a href="https://youtu.be/9jpotpIO1-U?si=dXXGFkvyaFS_qdzo">3. Desolder mosfets</a></h3>](#desolder-mosfets)
+#### Mosfets
 
  It would be best to unclip the mosfets as well, as it might be difficult to heat all three points at the same time. Here too, it is recommended to use tweezers to apply pressure to the individual legs while heating the soldering point from the back.
 
@@ -220,7 +222,7 @@ All pictures are only examples, none of those are actually ESCs.
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/watch?v=9jpotpIO1-U">RobertFeranec</a>*
 
-[<h3><a href="https://youtube.com/shorts/nBeeM2gHQjI?si=4MIDuVpBg0SieDyq">4. Desolder ADC resistor</a></h3>](#desolder-adc-resistor)
+#### ADC Resistor
 
  This step will only be necessary if you plan to connect more than 11s (46.2V) to your ESC!<br>
  Start by adding solder to both poles of the resistor. This ensures that your solder stays melted longer. In this time you need to work fast, heat the other pole of the resitsor, in order to finally remove the resistor from the PCB. Tweezers are once again ideal for this process.
@@ -233,7 +235,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 ### Soldering
 
-[<h3><a href="https://youtube.com/shorts/rXJ9ICXt3zM?si=aBIKT8NGJLts9prp">1. Solder ADC resistor</a></h3>](#solder-adc-resistor)
+#### ADC Resistor
 
  First things first, we start by cleaning the solder pads. Use desoldering wick and flux to remove as much solder as possible.
  You should then clean the area, using high-percentage alcohol and a cotton swab to wipe away the remaining flux. Now we come to the soldering part. We want to carry out the process quickly and cleanly. Apply a bit of solder to one of the pads, let this solder heat up and carefully position one side of the resistor into the soldering point using tweezers, surely stop to heat the solder after positioning the resistor. This will help prevent the resistor from slipping during soldering the other pole. Now you can easily apply solder to the other side, and wuolah, your resistor is successfully soldered onto your PCB.
@@ -242,7 +244,7 @@ All pictures are only examples, none of those are actually ESCs.
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/shorts/rXJ9ICXt3zM">ElectronicsABC</a>*
 
-[<h3><a href="https://youtu.be/vAx89WhpZ3k?si=gy_2g-dBTuLDGw0U">2. Solder mosfets</a></h3>](#solder-mosfets)
+#### Mosfets
 
 For through-hole components we need clean solder holes so that we can plug the components through more easily. You should start by applying flux to all the holes, then go over them with desoldering wick to clear them. Now just stick the mosfet-legs through, and apply solder to the pads, they will then stick inside by theirselves.
 
@@ -250,7 +252,7 @@ For through-hole components we need clean solder holes so that we can plug the c
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@sdgelectronics">Sdgelectronics</a>*
 
-[<h3><a href="https://youtu.be/Y7v0167aYW4?si=0G6yncKXaa-pSXLS">3. Solder capacitors</a></h3>](#solder-capacitors)
+#### Capacitors
 
 We can differentiate between two types: upways and sideways.
 Depending on how big your caps are and which ESC generation you have, you have to decide how to solder the caps. However, if you solder sideways, you have to calculate how exactly you have to bend the poles before soldering them.
@@ -265,17 +267,17 @@ Depending on how big your caps are and which ESC generation you have, you have t
 
 In this part we will focus on the conductor tracks. Each ESC looks different from the backside. To create a higher heat limit, we will solder copper wire onto the conductor tracks, this will then be covered with solder to increase heat distribution. I have traced the copper wires in each picture, showing how they need to be soldered.
 
-- #### [Generation 1](#generation-1-conductor-tracks)
+#### Generation 1 Tracks
 
 <img src="pictures/Conductor-tracks-Gen1ESC.jpg"
   width="590">
 
-- #### [Generation 2](#generation-2-conductor-tracks)
+#### Generation 2 Tracks
 
 <img src="pictures/Conductor-tracks-Gen2ESC.jpg"
   width="590"><br>
 
-### [Copper-wire](#copper-wire)
+#### Copper Wire
 
 Please make sure you have the correct thickness of copper wire. You don't want your solder to melt and cause shorts when you heat the conductors through the motor. 10 Awg thickness is commonly used for this process. Please don't overdo it with the solder, we still want the PCB to fit into the case.
 
@@ -298,13 +300,13 @@ Do not forget to put a shrink tubing over your structure, we don't want to shock
 ---
 ### Example of modded ESCs
 
-- #### [Generation 1](#generation-1-example)
+#### Generation 1 Example
 
 <img src="pictures/Modded-Gen1ESC.jpg"
   width="590"><br>
 *Credits: <a href="https://t.me/MickG90Germany">Mick Cos</a>*
 
-- #### [Generation 2](#generation-2-example)
+#### Generation 2 Example
 
 <img src="pictures/Modded-Gen2ESC.jpg"
   width="590"><br>
