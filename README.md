@@ -198,7 +198,7 @@ All pictures are only examples, none of those are actually ESCs.
 
  We start by scraping the silicone off the pads we want to solder to, use a needle or fork for this process, being careful not to damage the PCB.
 
-<img src="pictures/How-to-remove-silicon.png"
+<a href="https://youtu.be/APBmFtRgpnI?si=u-y074FctDd8AGvc"><img src="pictures/How-to-remove-silicon.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@fellercolin">Fellercolin</a>*
 
@@ -210,7 +210,7 @@ All pictures are only examples, none of those are actually ESCs.
 **(3 Capacitor)**: <br>
  Start by desoldering all three capacitor, none of them can be left as they are very low voltage. It doesn't matter which of the three fields you solder new caps to, it won't make a difference. However, there is a problem here. Because the caps are soldered upways onto the PCB, there is no way to make the desoldering process easier by snapping off the poles. You now have to desolder the capacitors from below the PCB. Your only option will be to apply flux to both fields, thereby creating a heat distribution on both fields. While doing this, you will need a pressure from the other side, that pulls the capacitor away from the PCB.
 
-<img src="pictures/How-to-desolder-capacitors.png"
+<a href="https://youtu.be/BFDwsdEGsDE?si=k15nF6Udf_BwlFlO"><img src="pictures/How-to-desolder-capacitors.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@The231447LucidDevTeam">The231447LucidDevTeam</a>*
 
@@ -218,7 +218,7 @@ All pictures are only examples, none of those are actually ESCs.
 
  It would be best to unclip the mosfets as well, as it might be difficult to heat all three points at the same time. Here too, it is recommended to use tweezers to apply pressure to the individual legs while heating the soldering point from the back.
 
-<img src="pictures/How-to-desolder-mosfets.png"
+<a href="https://youtu.be/9jpotpIO1-U?si=dXXGFkvyaFS_qdzo"><img src="pictures/How-to-desolder-mosfets.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/watch?v=9jpotpIO1-U">RobertFeranec</a>*
 
@@ -227,7 +227,7 @@ All pictures are only examples, none of those are actually ESCs.
  This step will only be necessary if you plan to connect more than 11s (46.2V) to your ESC!<br>
  Start by adding solder to both poles of the resistor. This ensures that your solder stays melted longer. In this time you need to work fast, heat the other pole of the resitsor, in order to finally remove the resistor from the PCB. Tweezers are once again ideal for this process.
 
-<img src="pictures/How-to-desolder-ADC-resistor.png"
+<a href="https://youtube.com/shorts/nBeeM2gHQjI?si=4MIDuVpBg0SieDyq"><img src="pictures/How-to-desolder-ADC-resistor.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@electronic7979">Electronic7979</a>*
 
@@ -240,7 +240,7 @@ All pictures are only examples, none of those are actually ESCs.
  First things first, we start by cleaning the solder pads. Use desoldering wick and flux to remove as much solder as possible.
  You should then clean the area, using high-percentage alcohol and a cotton swab to wipe away the remaining flux. Now we come to the soldering part. We want to carry out the process quickly and cleanly. Apply a bit of solder to one of the pads, let this solder heat up and carefully position one side of the resistor into the soldering point using tweezers, surely stop to heat the solder after positioning the resistor. This will help prevent the resistor from slipping during soldering the other pole. Now you can easily apply solder to the other side, and wuolah, your resistor is successfully soldered onto your PCB.
 
-<img src="pictures/How-to-solder-ADC-resistor.png"
+<a href="https://youtube.com/shorts/rXJ9ICXt3zM?si=aBIKT8NGJLts9prp"><img src="pictures/How-to-solder-ADC-resistor.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/shorts/rXJ9ICXt3zM">ElectronicsABC</a>*
 
@@ -248,7 +248,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 For through-hole components we need clean solder holes so that we can plug the components through more easily. You should start by applying flux to all the holes, then go over them with desoldering wick to clear them. Now just stick the mosfet-legs through, and apply solder to the pads, they will then stick inside by theirselves.
 
-<img src="pictures/How-to-solder-mosfets.png"
+<a href="https://youtu.be/vAx89WhpZ3k?si=gy_2g-dBTuLDGw0U"><img src="pictures/How-to-solder-mosfets.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@sdgelectronics">Sdgelectronics</a>*
 
@@ -257,7 +257,7 @@ For through-hole components we need clean solder holes so that we can plug the c
 We can differentiate between two types: upways and sideways.
 Depending on how big your caps are and which ESC generation you have, you have to decide how to solder the caps. However, if you solder sideways, you have to calculate how exactly you have to bend the poles before soldering them.
 
-<img src="pictures/How-to-solder-capacitors.png"
+<a href="https://youtu.be/Y7v0167aYW4?si=0G6yncKXaa-pSXLS"><img src="pictures/How-to-solder-capacitors.png"
   width="200"><br>
   *Credits: <a href="https://www.youtube.com/@Rchelicopterfun">Rchelicopterfun</a>*
 
