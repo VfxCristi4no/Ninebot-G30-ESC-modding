@@ -46,9 +46,6 @@ In this guide we will talk about how to mod your own ESC. We will find out how t
 ### Warning
 Make sure to always drain your capacitors when working with your ESC. You want to do this to prevent shorts. **Step-by-step**: Plug out battery cable, leave all else cables plugged in, now turn on the scooter and wait until it turns off itself. <br>
 
-⚠️ Please read the <a href="PRECAUSION.md">precausion</a> file ⚠️
-
-
 ---
 
 #### ESC Generations
