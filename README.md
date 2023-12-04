@@ -86,7 +86,7 @@ The second generation is based on the AT32 chip and connects to the motor via sc
 
 #### Resistors
 
- Depending on the voltage you want to apply to your ESC, you will need a specific resistor. If a resistor has a high electrical resistance, the current strength in a circuit is severely limited and only a small current flows. If a resistor has a low resistance value, a high current can flow. So how do we actually know what resistance we need for our voltage? For this case, Lekrsu has created a great <a href="https://lekrsu.github.io/shfw-walkthrough/calculator/">calculator</a> to calculate how much **Radc (Ohms)** your resistor needs to resist the voltage going through the ESC. Regarding on which value you enter, you will get the maximal voltage the resistor can resist. **For example**: 36V batteries have a maximal voltage of 42V, in this case you would need 130K Ohm.
+Depending on the voltage you want to apply to your ESC, you will need a specific resistor. If a resistor has a high electrical resistance, the current strength in a circuit is severely limited and only a small current flows. If a resistor has a low resistance value, a high current can flow. So how do we actually know what resistance we need for our voltage? For this case, Lekrsu has created a great <a href="https://lekrsu.github.io/shfw-walkthrough/calculator/">calculator</a> to calculate how much Radc (Ohms) your resistor needs to resist the voltage going through the ESC. Regarding on which value you enter, you will get the maximal voltage the resistor can resist. **For example**: 36V batteries have a maximal voltage of 42V, in this case you would need 130K Ohm.
 
 
 <img src="pictures/Electronic-Axial-Lead-Resistors-Array.png"
