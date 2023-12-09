@@ -176,7 +176,7 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
   width="300"><br>
 *Credits: <a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>*<br>
 
-This is the mosfet clamp of the Gen2 ESC. The only way to get this clamp off is with a flathead screwdriver and a hammer. Clamp the ESC in a vise and carefully begin to hammer the clamp out to the side. You can see a example video <a href="https://imgur.com/a/pmB3rNZ">here</a>. Make sure if any metal shards have created shorts when inserted the clamp. Please bend the mosfet legs at the end so that the body rests parallel to the housing.
+This is the mosfet clamp of the Gen2 ESC. The only way to get this clamp off is with a flathead screwdriver and a hammer. Clamp the ESC in a vise and carefully begin to hammer the clamp out to the side. You can see an example video of reassembling it <a href="https://imgur.com/a/pmB3rNZ">here</a>. Make sure if any metal shards have created shorts when inserted the clamp. Please bend the mosfet legs at the end so that the body rests parallel to the housing.
 </details>
 
 ---
