@@ -127,13 +127,13 @@ The conductor tracks are responsible for transmitting the current in the PCB to 
 <details>
  
 <img src="pictures/ADC-resistor-Gen1ESC.1Cap.jpg"
-  width="300">
+  width="300"><br>
   *Credits: <a href="https://joeybabcock.me/">Joey Babcock</a>*
 
 The ADC resistor is placed next to the main capacitor.<br>
 
 <img src="pictures/Voltage-stabalizer+Secondary-capacitor-Gen1ESC.1Cap.jpg"
-  width="300">
+  width="300"><br>
   *Credits: <a href="https://joeybabcock.me/">Joey Babcock</a>*
 
 The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with anything! Please swap the secondary capacitor with a capacitor that has the capacity of 33μF, higher capacity may cause problems.
