@@ -73,7 +73,7 @@ The first generation ESC is based on a STM32 chip and connects to the motor via 
   width="305"
   height="229">
   <br>
-*Credits: <a href="https://joeybabcock.me/">Joey Babcock</a> &<a href="https://discordapp.com/users/1030601422900834345"> Stoindl</a>*
+*Credits: <a href="https://joeybabcock.me/">Joey Babcock</a> &<a href="https://discordid.netlify.app/?id=1030601422900834345"> Stoindl</a>*
 
 The second generation is based on the AT32 chip and connects to the motor via screwable connectors. This model was invented by the new G30 models in early 2022. The ESC is protected by a black plastic shell and therefore does not contain any silicone for water protection. In addition, the mosfets are held by a clamp, which presses the mosfets onto the housing with tension to ensure heat dissipation.
 
@@ -148,13 +148,13 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
 <img src="pictures/ADC-resistor-Gen1ESC.3Cap.jpg"
   width="300">
 
-*Credits: <a href="https://discordapp.com/users/841686587463958579">Neon</a>*<br>
+*Credits: <a href="https://discordid.netlify.app/?id=841686587463958579">Neon</a>*<br>
 
 The ADC resistor is placed next to the secondary capacitor.<br>
 
 <img src="pictures/Voltage-stabalizer+Secondary-capacitor-Gen1ESC.3Cap.jpg"
   width="300"><br>
-*Credits: <a href="https://discordapp.com/users/841686587463958579">Neon</a>*
+*Credits: <a href="https://discordid.netlify.app/?id=841686587463958579">Neon</a>*
 
 The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with anything! Please swap the secondary capacitor with a capacitor that has the capacity of 33μF, higher capacity may cause problems.
 
@@ -164,19 +164,19 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
 
 <img src="pictures/NinebotMaxGen2ESC-explained.jpg"
   width="590"><br>
-*Credits: <a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>*<br>
+*Credits: <a href="https://discordid.netlify.app/?id=1030601422900834345">Stoindl</a>*<br>
 
 <details>
 
 <img src="pictures/ADC-resistor-Gen2ESC.jpg"
   width="300"><br>
-*Credits: <a href="https://discordapp.com/users/493137101353779205">Charly-Fox</a>*<br>
+*Credits: <a href="https://discordid.netlify.app/?id=493137101353779205">Charly-Fox</a>*<br>
 
 The ADC resistor is placed next to the debug points.<br>
 
 <img src="pictures/Voltage-stabalizer+Secondary-capacitor-Gen2ESC.jpg"
   width="300"><br>
-*Credits: <a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>*
+*Credits: <a href="https://discordid.netlify.app/?id=1030601422900834345">Stoindl</a>*
 
 The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with anything! Please swap the secondary capacitor with a capacitor that has the capacity of 33μF, higher capacity may cause problems.<br>
 <br>
@@ -184,7 +184,7 @@ The voltage stabalizer is a stabilization for the 12V line, do NOT swap it with 
   width="300">
 <img src="pictures/Mosfet-legs-Gen2ESC.jpg"
   width="300"><br>
-*Credits: <a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>*<br>
+*Credits: <a href="https://discordid.netlify.app/?id=1030601422900834345">Stoindl</a>*<br>
 
 This is the mosfet clamp of the Gen2 ESC. The only way to get this clamp off is with a flathead screwdriver and a hammer. Clamp the ESC in a vise and carefully begin to hammer the clamp out to the side. You can see an example video of reassembling it <a href="https://imgur.com/a/pmB3rNZ">here</a>. Make sure if any metal shards have created shorts when inserted the clamp. Please bend the mosfet legs at the end so that the body rests parallel to the housing.
 </details>
@@ -249,7 +249,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 <a href="https://youtube.com/shorts/rXJ9ICXt3zM?si=aBIKT8NGJLts9prp"><img src="pictures/How-to-solder-ADC-resistor.png"
   width="200"><br>
-  *Credits: <a href="https://www.youtube.com/shorts/rXJ9ICXt3zM">ElectronicsABC</a>*
+  *Credits: <a href="https://www.youtube.com/@electronicsABC">ElectronicsABC</a>*
 
 #### Mosfets
 
@@ -325,9 +325,9 @@ Do not forget to put a shrink tubing over your structure, we don't want to shock
 
 If you've read this far, then you should now know how to mod your ESC. I would like to thank all the people who helped me write this guide and who diligently sent me pictures. A special thanks to:<br>
 <br>
-<a href="https://discordapp.com/users/1030601422900834345">Stoindl</a>, for his great photos!<br>
-<a href="https://discordapp.com/users/180730711026827267">Lekrsu</a>, for his help with GitHub!<br>
-<a href="https://discordapp.com/users/341421282946187274">Joey Babcock</a>, for the permission to use his pictures!<br>
-<a href="https://discordapp.com/users/841686587463958579">Neon</a>, for detailed informations about the ESCs!
+<a href="https://discordid.netlify.app/?id=1030601422900834345">Stoindl</a>, for his great photos!<br>
+<a href="https://discordid.netlify.app/?id=180730711026827267">Lekrsu</a>, for his help with GitHub!<br>
+<a href="https://discordid.netlify.app/?id=341421282946187274">Joey Babcock</a>, for the permission to use his pictures!<br>
+<a href="https://discordid.netlify.app/?id=841686587463958579">Neon</a>, for detailed informations about the ESCs!
 
 This guide was written from **(03/11/2023)** to **(03/12/2023)**, and took a lot of effort. If you appreciate my work, a <a href="https://www.paypal.com/donate/?hosted_button_id=JXSMGF7S8TG3Y">donation</a> would be greatly appreciated.
