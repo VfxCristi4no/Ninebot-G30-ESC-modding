@@ -207,7 +207,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 <a href="https://youtu.be/APBmFtRgpnI?si=u-y074FctDd8AGvc"><img src="pictures/How-to-remove-silicon.png"
   width="200"><br>
-  *Credits: <a href="https://www.youtube.com/@fellercolin">Fellercolin</a>*
+*Credits: <a href="https://www.youtube.com/@fellercolin">Fellercolin</a>*
 
 #### Capacitors
 
@@ -219,7 +219,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 <a href="https://youtu.be/BFDwsdEGsDE?si=k15nF6Udf_BwlFlO"><img src="pictures/How-to-desolder-capacitors.png"
   width="200"><br>
-  *Credits: <a href="https://www.youtube.com/@The231447LucidDevTeam">The231447LucidDevTeam</a>*
+*Credits: <a href="https://www.youtube.com/@The231447LucidDevTeam">The231447LucidDevTeam</a>*
 
 #### Mosfets
 
@@ -227,7 +227,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 <a href="https://youtu.be/9jpotpIO1-U?si=dXXGFkvyaFS_qdzo"><img src="pictures/How-to-desolder-mosfets.png"
   width="200"><br>
-  *Credits: <a href="https://www.youtube.com/watch?v=9jpotpIO1-U">RobertFeranec</a>*
+*Credits: <a href="https://www.youtube.com/watch?v=9jpotpIO1-U">RobertFeranec</a>*
 
 #### ADC Resistor
 
@@ -236,7 +236,7 @@ All pictures are only examples, none of those are actually ESCs.
 
 <a href="https://youtube.com/shorts/nBeeM2gHQjI?si=4MIDuVpBg0SieDyq"><img src="pictures/How-to-desolder-ADC-resistor.png"
   width="200"><br>
-  *Credits: <a href="https://www.youtube.com/@electronic7979">Electronic7979</a>*
+*Credits: <a href="https://www.youtube.com/@electronic7979">Electronic7979</a>*
 
 ---
 
