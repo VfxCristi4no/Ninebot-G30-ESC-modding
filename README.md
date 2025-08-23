@@ -317,7 +317,7 @@ Do not forget to put a shrink tubing over your structure, we don't want to shock
 
 <img src="pictures/Modded-Gen2ESC.jpg"
   width="590"><br>
-*Credits: <a href="https://t.me/LizardDoggo">Finn</a>*
+*Credits: <a href="https://t.me/TherealLizardDoggo">Finn</a>*
 
 ---
 
